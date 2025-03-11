@@ -1,4 +1,12 @@
+img{
+    width: 467px;
+    height: 523px;
+}
+
 body {
+    border: 10%;
+    box-sizing: border-box;
+    height: 100vh;
     background-color: black ; /**/
     color: #F6F6F6;
 }
@@ -6,4 +14,26 @@ body {
 
 .destaque-titulo {
     color: #22D4FD;
+}
+
+.apresentacao{
+    margin: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.apresentacao__conteudo{
+    width: 615px;
+    height: 482px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    line-height: 36px;
 }
