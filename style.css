@@ -15,7 +15,7 @@ body {
 
 
 .destaque-titulo {
-    color: #22D4FD;
+    color: #ce871d
 }
 
 .apresentacao__conteudo{
@@ -27,7 +27,7 @@ body {
 }
 
 .apresentacao{
-    margin: 10% 13%;
+    margin: 10% 18%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -42,22 +42,30 @@ body {
 }
 
 .apresentacao__conteudo__texto{
+    text-decoration: none;
     font-family: 'montserrat';
     font-size: 24px;
     line-height: 36px;
 }
 
 .apresentacao__conteudo__links{
-    text-align: center;
     display: flex;
-    justify-content: space-between  ;
+    justify-content: space-between ;
 }
 
 .apresentacao__conteudo__botao{
+    font-family: 'montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     width: 280px;
     height: 79px;
-    background-color: #22D4FD;
+    background-color: #ce871d;
     border-radius: 16px;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
     
 }
