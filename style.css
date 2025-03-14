@@ -1,71 +1,100 @@
+/* Importação da fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-img{
-    width: 467px;
-    height: 523px;
+/* Estilo para imagens */
+img {
+    width: 467px; /* Largura fixa */
+    height: 523px; /* Altura fixa */
 }
 
+/* Estilos gerais do corpo da página */
 body {
-    border: 10%;
-    box-sizing: border-box;
-    height: 100vh;
-    background-color: black ; /**/
-    color: #F6F6F6;
+    border: 10%; /* (Nota: Esta propriedade não é válida para o body) */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total */
+    height: 100vh; /* Altura igual à altura da viewport */
+    width: 1920px;
+    background-color: black; /* Cor de fundo preta */
+    color: #F6F6F6; /* Cor do texto */
 }
 
-
+/* Classe para destacar títulos */
 .destaque-titulo {
-    color: #ce871d
+    color: #ce871d; /* Cor laranja para destacar */
 }
 
-.apresentacao__conteudo{
-    width: 615px;
-    height: 482px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+/* Estilo para o conteúdo principal */
+.apresentacao__conteudo {
+    width: 615px; /* Largura fixa */
+    height: 482px; /* Altura fixa */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Organiza os itens em coluna */
+    gap: 40px; /* Espaçamento entre os itens */
 }
 
-.apresentacao{
-    margin: 10% 18%;
+/* Estilo para a seção de apresentação */
+.apresentacao {
+    margin: 8% 15%;
+    align-items: center; /* Centraliza os itens verticalmente */
+    display: flex; /* Layout flexível */
+    justify-content: space-between; /* Espaço entre os itens */
+}
+
+/* Estilo para o título do conteúdo */
+.apresentacao__conteudo__titulo {
+    font-family: "Krona One", sans-serif; /* Fonte personalizada */
+    font-weight: 400; /* Peso da fonte */
+    font-style: normal; /* Estilo normal (sem itálico) */
+    font-size: 36px; /* Tamanho da fonte */
+    line-height: 56px; /* Altura da linha */
+}
+
+/* Estilo para o texto do conteúdo */
+.apresentacao__conteudo__texto {
+    width: 593px;
+    height: 352px;
+    text-decoration: none; /* Remove sublinhado de links */
+    font-family: 'montserrat'; /* Fonte personalizada */
+    font-size: 24px; /* Tamanho da fonte */
+    line-height: 36px; /* Altura da linha */
+}
+
+/* Estilo para a seção de links */
+.apresentacao__conteudo__links {
+    gap: 32px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column ;
 }
 
-.apresentacao__conteudo__titulo{
-    font-family: "Krona One", sans-serif;
+.subtitulo{
+    color: #F6F6F6;
+    font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-    line-height: 56px;
-}
-
-.apresentacao__conteudo__texto{
-    text-decoration: none;
-    font-family: 'montserrat';
     font-size: 24px;
-    line-height: 36px;
 }
 
-.apresentacao__conteudo__links{
-    display: flex;
-    justify-content: space-between ;
-}
-
-.apresentacao__conteudo__botao{
-    font-family: 'montserrat';
-    font-size: 24px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    width: 280px;
-    height: 79px;
-    background-color: #ce871d;
-    border-radius: 16px;
-    display: flex;
+/* Estilo para os botões */
+.apresentacao__conteudo__botao {
+    font-family: 'montserrat'; /* Fonte personalizada */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte (semi-negrito) */
+    color: #F6F6F6; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    width: 378px; /* Largura fixa */
+    height: 68px; /* Altura fixa */
+    border: 2px solid #ce871d;
+    border-radius: 8px; /* Bordas arredondadas */
+    display: flex; /* Layout flexível */
     align-items: center; /* Centraliza verticalmente */
     justify-content: center; /* Centraliza horizontalmente */
     text-align: center; /* Centraliza o texto */
-    
+
+    gap: 16px;
 }
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+
